@@ -65,6 +65,10 @@ gem 'bootstrap', '~> 4.3.1'
 
 gem 'jquery-rails'
 
+gem 'will_paginate', '~> 3.1.0'
+
+gem 'simple_form'
+
 source 'https://rails-assets.org' do
   gem 'rails-assets-tether', '>= 1.3.3'
 end
