@@ -38,6 +38,7 @@ body {
   background: white;
   cursor: default;
   height: 22px;
+ 
   a, span, em {
     padding: 0.2em 0.5em;
     display: block;
@@ -45,7 +46,7 @@ body {
     margin-right: 1px;
   }
   .disabled {
-    display: none;
+     display: none;
   }
   .current {
     font-style: normal;
@@ -63,17 +64,28 @@ body {
       border-color: #000033;
     }
   }
-  .page_info {
-    background: #2e6ab1;
-    color: white;
-    padding: 0.4em 0.6em;
-    width: 22em;
-    margin-bottom: 0.3em;
-    text-align: center;
-    b {
-      color: #000033;
-      background: #2e6ab1 + 60;
-      padding: 0.1em 0.25em;
-    }
-  }
 }
+
+.page_info {
+  background: #2e6ab1;
+  color: white;
+  padding: 0.4em 0.6em;
+  width: 22em;
+  margin-bottom: 0.3em;
+  text-align: center;
+}
+b {
+  color: #000033;
+  background: #2e6ab1 + 60;
+  padding: 0.1em 0.25em;
+}
+
+.invalid-feedback {
+  color: #ff3333;
+  background-color: #FFEEEE;
+  border-radius: 3px;
+  padding: 2px 8px 2px 8px;
+}
+  
+    
+
